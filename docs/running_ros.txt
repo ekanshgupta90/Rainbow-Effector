@@ -1,0 +1,7 @@
+roslaunch turtlebot_bringup minimal.launch
+
+roslaunch turtlebot_navigation amcl_demo.launch
+
+roslaunch turtlebot_rviz_launchers view_navigation.launch --screen
+
+python command.py

@@ -1,0 +1,512 @@
+  seq: 10873
+  stamp: 
+    secs: 2207
+    nsecs: 270000000
+  frame_id: ''
+status_list: 
+  - 
+    goal_id: 
+      stamp: 
+        secs: 1195
+        nsecs: 720000000
+      id: /move_base-8-1195.720000000
+    status: 3
+    text: Goal reached.
+  - 
+    goal_id: 
+      stamp: 
+        secs: 0
+        nsecs:         0
+      id: /nav_test-1-1250.900
+    status: 7
+    text: ''
+---
+header: 
+  seq: 10874
+  stamp: 
+    secs: 2207
+    nsecs: 470000000
+  frame_id: ''
+status_list: 
+  - 
+    goal_id: 
+      stamp: 
+        secs: 1195
+        nsecs: 720000000
+      id: /move_base-8-1195.720000000
+    status: 3
+    text: Goal reached.
+  - 
+    goal_id: 
+      stamp: 
+        secs: 0
+        nsecs:         0
+      id: /nav_test-1-1250.900
+    status: 7
+    text: ''
+---
+header: 
+  seq: 10875
+  stamp: 
+    secs: 2207
+    nsecs: 670000000
+  frame_id: ''
+status_list: 
+  - 
+    goal_id: 
+      stamp: 
+        secs: 1195
+        nsecs: 720000000
+      id: /move_base-8-1195.720000000
+    status: 3
+    text: Goal reached.
+  - 
+    goal_id: 
+      stamp: 
+        secs: 0
+        nsecs:         0
+      id: /nav_test-1-1250.900
+    status: 7
+    text: ''
+---
+header: 
+  seq: 10876
+  stamp: 
+    secs: 2207
+    nsecs: 870000000
+  frame_id: ''
+status_list: 
+  - 
+    goal_id: 
+      stamp: 
+        secs: 1195
+        nsecs: 720000000
+      id: /move_base-8-1195.720000000
+    status: 3
+    text: Goal reached.
+  - 
+    goal_id: 
+      stamp: 
+        secs: 0
+        nsecs:         0
+      id: /nav_test-1-1250.900
+    status: 7
+    text: ''
+---
+header: 
+  seq: 10877
+  stamp: 
+    secs: 2208
+    nsecs:  70000000
+  frame_id: ''
+status_list: 
+  - 
+    goal_id: 
+      stamp: 
+        secs: 1195
+        nsecs: 720000000
+      id: /move_base-8-1195.720000000
+    status: 3
+    text: Goal reached.
+  - 
+    goal_id: 
+      stamp: 
+        secs: 0
+        nsecs:         0
+      id: /nav_test-1-1250.900
+    status: 7
+    text: ''
+---
+header: 
+  seq: 10878
+  stamp: 
+    secs: 2208
+    nsecs: 270000000
+  frame_id: ''
+status_list: 
+  - 
+    goal_id: 
+      stamp: 
+        secs: 1195
+        nsecs: 720000000
+      id: /move_base-8-1195.720000000
+    status: 3
+    text: Goal reached.
+  - 
+    goal_id: 
+      stamp: 
+        secs: 0
+        nsecs:         0
+      id: /nav_test-1-1250.900
+    status: 7
+    text: ''
+---
+header: 
+  seq: 10879
+  stamp: 
+    secs: 2208
+    nsecs: 470000000
+  frame_id: ''
+status_list: 
+  - 
+    goal_id: 
+      stamp: 
+        secs: 1195
+        nsecs: 720000000
+      id: /move_base-8-1195.720000000
+    status: 3
+    text: Goal reached.
+  - 
+    goal_id: 
+      stamp: 
+        secs: 0
+        nsecs:         0
+      id: /nav_test-1-1250.900
+    status: 7
+    text: ''
+---
+header: 
+  seq: 10880
+  stamp: 
+    secs: 2208
+    nsecs: 670000000
+  frame_id: ''
+status_list: 
+  - 
+    goal_id: 
+      stamp: 
+        secs: 1195
+        nsecs: 720000000
+      id: /move_base-8-1195.720000000
+    status: 3
+    text: Goal reached.
+  - 
+    goal_id: 
+      stamp: 
+        secs: 0
+        nsecs:         0
+      id: /nav_test-1-1250.900
+    status: 7
+    text: ''
+---
+header: 
+  seq: 10881
+  stamp: 
+    secs: 2208
+    nsecs: 870000000
+  frame_id: ''
+status_list: 
+  - 
+    goal_id: 
+      stamp: 
+        secs: 1195
+        nsecs: 720000000
+      id: /move_base-8-1195.720000000
+    status: 3
+    text: Goal reached.
+  - 
+    goal_id: 
+      stamp: 
+        secs: 0
+        nsecs:         0
+      id: /nav_test-1-1250.900
+    status: 7
+    text: ''
+---
+header: 
+  seq: 10882
+  stamp: 
+    secs: 2209
+    nsecs:  70000000
+  frame_id: ''
+status_list: 
+  - 
+    goal_id: 
+      stamp: 
+        secs: 1195
+        nsecs: 720000000
+      id: /move_base-8-1195.720000000
+    status: 3
+    text: Goal reached.
+  - 
+    goal_id: 
+      stamp: 
+        secs: 0
+        nsecs:         0
+      id: /nav_test-1-1250.900
+    status: 7
+    text: ''
+---
+header: 
+  seq: 10883
+  stamp: 
+    secs: 2209
+    nsecs: 270000000
+  frame_id: ''
+status_list: 
+  - 
+    goal_id: 
+      stamp: 
+        secs: 1195
+        nsecs: 720000000
+      id: /move_base-8-1195.720000000
+    status: 3
+    text: Goal reached.
+  - 
+    goal_id: 
+      stamp: 
+        secs: 0
+        nsecs:         0
+      id: /nav_test-1-1250.900
+    status: 7
+    text: ''
+---
+header: 
+  seq: 10884
+  stamp: 
+    secs: 2209
+    nsecs: 470000000
+  frame_id: ''
+status_list: 
+  - 
+    goal_id: 
+      stamp: 
+        secs: 1195
+        nsecs: 720000000
+      id: /move_base-8-1195.720000000
+    status: 3
+    text: Goal reached.
+  - 
+    goal_id: 
+      stamp: 
+        secs: 0
+        nsecs:         0
+      id: /nav_test-1-1250.900
+    status: 7
+    text: ''
+---
+header: 
+  seq: 10885
+  stamp: 
+    secs: 2209
+    nsecs: 670000000
+  frame_id: ''
+status_list: 
+  - 
+    goal_id: 
+      stamp: 
+        secs: 1195
+        nsecs: 720000000
+      id: /move_base-8-1195.720000000
+    status: 3
+    text: Goal reached.
+  - 
+    goal_id: 
+      stamp: 
+        secs: 0
+        nsecs:         0
+      id: /nav_test-1-1250.900
+    status: 7
+    text: ''
+---
+header: 
+  seq: 10886
+  stamp: 
+    secs: 2209
+    nsecs: 870000000
+  frame_id: ''
+status_list: 
+  - 
+    goal_id: 
+      stamp: 
+        secs: 1195
+        nsecs: 720000000
+      id: /move_base-8-1195.720000000
+    status: 3
+    text: Goal reached.
+  - 
+    goal_id: 
+      stamp: 
+        secs: 0
+        nsecs:         0
+      id: /nav_test-1-1250.900
+    status: 7
+    text: ''
+---
+header: 
+  seq: 10887
+  stamp: 
+    secs: 2210
+    nsecs:  70000000
+  frame_id: ''
+status_list: 
+  - 
+    goal_id: 
+      stamp: 
+        secs: 1195
+        nsecs: 720000000
+      id: /move_base-8-1195.720000000
+    status: 3
+    text: Goal reached.
+  - 
+    goal_id: 
+      stamp: 
+        secs: 0
+        nsecs:         0
+      id: /nav_test-1-1250.900
+    status: 7
+    text: ''
+---
+header: 
+  seq: 10888
+  stamp: 
+    secs: 2210
+    nsecs: 270000000
+  frame_id: ''
+status_list: 
+  - 
+    goal_id: 
+      stamp: 
+        secs: 1195
+        nsecs: 720000000
+      id: /move_base-8-1195.720000000
+    status: 3
+    text: Goal reached.
+  - 
+    goal_id: 
+      stamp: 
+        secs: 0
+        nsecs:         0
+      id: /nav_test-1-1250.900
+    status: 7
+    text: ''
+---
+header: 
+  seq: 10889
+  stamp: 
+    secs: 2210
+    nsecs: 470000000
+  frame_id: ''
+status_list: 
+  - 
+    goal_id: 
+      stamp: 
+        secs: 1195
+        nsecs: 720000000
+      id: /move_base-8-1195.720000000
+    status: 3
+    text: Goal reached.
+  - 
+    goal_id: 
+      stamp: 
+        secs: 0
+        nsecs:         0
+      id: /nav_test-1-1250.900
+    status: 7
+    text: ''
+---
+header: 
+  seq: 10890
+  stamp: 
+    secs: 2210
+    nsecs: 670000000
+  frame_id: ''
+status_list: 
+  - 
+    goal_id: 
+      stamp: 
+        secs: 1195
+        nsecs: 720000000
+      id: /move_base-8-1195.720000000
+    status: 3
+    text: Goal reached.
+  - 
+    goal_id: 
+      stamp: 
+        secs: 0
+        nsecs:         0
+      id: /nav_test-1-1250.900
+    status: 7
+    text: ''
+---
+header: 
+  seq: 10891
+  stamp: 
+    secs: 2210
+    nsecs: 870000000
+  frame_id: ''
+status_list: 
+  - 
+    goal_id: 
+      stamp: 
+        secs: 1195
+        nsecs: 720000000
+      id: /move_base-8-1195.720000000
+    status: 3
+    text: Goal reached.
+  - 
+    goal_id: 
+      stamp: 
+        secs: 0
+        nsecs:         0
+      id: /nav_test-1-1250.900
+    status: 7
+    text: ''
+---
+header: 
+  seq: 10892
+  stamp: 
+    secs: 2211
+    nsecs:  70000000
+  frame_id: ''
+status_list: 
+  - 
+    goal_id: 
+      stamp: 
+        secs: 1195
+        nsecs: 720000000
+      id: /move_base-8-1195.720000000
+    status: 3
+    text: Goal reached.
+  - 
+    goal_id: 
+      stamp: 
+        secs: 0
+        nsecs:         0
+      id: /nav_test-1-1250.900
+    status: 7
+    text: ''
+---
+header: 
+  seq: 10893
+  stamp: 
+    secs: 2211
+    nsecs: 270000000
+  frame_id: ''
+status_list: 
+  - 
+    goal_id: 
+      stamp: 
+        secs: 1195
+        nsecs: 720000000
+      id: /move_base-8-1195.720000000
+    status: 3
+    text: Goal reached.
+  - 
+    goal_id: 
+      stamp: 
+        secs: 0
+        nsecs:         0
+      id: /nav_test-1-1250.900
+    status: 7
+    text: ''
+  - 
+    goal_id: 
+      stamp: 
+        secs: 0
+        nsecs:         0
+      id: /nav_test-1-2151.070
+    status: 7
+    text: ''
+---
+
