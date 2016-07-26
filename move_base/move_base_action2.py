@@ -7,6 +7,7 @@ import rospy
 from move_base_msgs.msg import MoveBaseAction, MoveBaseGoal
 import actionlib
 from actionlib_msgs.msg import *
+from math import radians
 
 class GoForwardAvoid():
     def __init__(self):
@@ -20,20 +21,21 @@ class GoForwardAvoid():
 	self.move_base = actionlib.SimpleActionClient("move_base", MoveBaseAction)
 	rospy.loginfo("wait for the action server to come up")
 	#allow up to 5 seconds for the action server to come up
-	self.move_base.wait_for_server(rospy.Duration(5))
+	self.move_base.wait_for_server(rospy.Duration(10))
 
 	#we'll send a goal to the robot to move 3 meters forward
 	goal = MoveBaseGoal()
 	goal.target_pose.header.frame_id = 'base_link'
 	goal.target_pose.header.stamp = rospy.Time.now()
-	goal.target_pose.pose.position.x = 3.0 #3 meters
-	goal.target_pose.pose.orientation.w = 1.0 #go forward
+	goal.target_pose.pose.position.x = 0.0 #3 meters
+	goal.target_pose.pose.orientation.z = radians(90)
+	goal.target_pose.pose.orientation.w = 0.0 #go forward
 
 	#start moving
         self.move_base.send_goal(goal)
 
 	#allow TurtleBot up to 60 seconds to complete task
-	success = self.move_base.wait_for_result(rospy.Duration(2)) 
+	success = self.move_base.wait_for_result(rospy.Duration(10)) 
 
 
 	if not success:
