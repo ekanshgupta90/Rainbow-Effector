@@ -8,18 +8,12 @@ def callback(data):
   print "---"
   if not is_node_running(command):
     kill_node(command)
-  if command == 'auto_nav':
+  if command == 'ig':
     call(['python','/home/ej/GIT/instructiongraphs/IGinterpreter/main.py','/home/ej/GIT/instructiongraphs/IGinterpreter/new.ig'])
-  elif command == 'ig':
+  elif command == 'ig2':
     call(['python','/home/ej/GIT/instructiongraphs/IGinterpreter/main.py','/home/ej/GIT/instructiongraphs/IGinterpreter/new2.ig'])
   else:
     print 'I dont recongize this command'
-
-def auto_nav():
-  print "hi"
-
-def ig():
-  print "hi"
 
 def is_node_running(nodeName):
   p = Popen(['rosnode','info',nodeName], stdin=PIPE, stdout=PIPE)

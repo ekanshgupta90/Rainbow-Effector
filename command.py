@@ -1,5 +1,6 @@
 import rospy
 from std_msgs.msg import String
+from actionlib_msgs.msg import GoalStatusArray
 
 def publisher():
   pub = rospy.Publisher('effector_actions',String, queue_size=10)
