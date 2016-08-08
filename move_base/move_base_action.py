@@ -2,6 +2,7 @@
 
 #Code is inspired by http://wiki.ros.org/navigation/Tutorials/SendingSimpleGoals (written in C++).
 #TurtleBot must have minimal.launch & amcl_demo.launch running prior to starting this script.
+#Code adapted from Mark Sulliman
 
 import rospy
 from move_base_msgs.msg import MoveBaseAction, MoveBaseGoal
