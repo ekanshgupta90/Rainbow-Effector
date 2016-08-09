@@ -1,3 +1,8 @@
+# Simple effector script.
+# Listens to topic - effector_actions (string input)
+# On new message kill the currently running IG and starts a new one.
+# author - Ekansh Gupta
+
 import rospy
 from subprocess import Popen, PIPE, call
 from std_msgs.msg import String
@@ -10,8 +15,10 @@ def callback(data):
     kill_node(command)
   if command == 'ig':
     call(['python','/home/ej/GIT/instructiongraphs/IGinterpreter/main.py','/home/ej/GIT/instructiongraphs/IGinterpreter/new.ig'])
+    # call(['rospy','<instruction graph package>','<full IG path>'])
   elif command == 'ig2':
     call(['python','/home/ej/GIT/instructiongraphs/IGinterpreter/main.py','/home/ej/GIT/instructiongraphs/IGinterpreter/new2.ig'])
+    # call(['rospy','<instruction graph package>','<full IG path>'])
   else:
     print 'I dont recongize this command'
 
@@ -38,7 +45,6 @@ def subscriber():
 
 if __name__ == '__main__':
   try:
-    # "/home/ej/GIT/instructiongraphs/IGinterpreter"
     call(["pwd"])
     subscriber()
   except rospy.ROSInterruptException:

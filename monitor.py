@@ -1,3 +1,7 @@
+# Simple monitor script.
+# Subscribes to move_base status topic.
+# On status = 4 triggers, ig swap on effector_actions topic.
+
 import rospy
 from std_msgs.msg import String
 from actionlib_msgs.msg import GoalStatusArray
@@ -17,9 +21,11 @@ def callback(goalStatusArray):
   pub = rospy.Publisher('effector_actions',String, queue_size=10)
   first = False
   for status in goalStatusArray.status_list:
+    # status 4 in move base refers to obstacle/failed goal. 
     if int(status.status) == 4:
       rospy.loginfo("Encountered error switching IG")
       if not first:
+        # Publishes a string value on the topic.
         pub.publish("ig2")
         first = True
 

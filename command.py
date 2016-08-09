@@ -1,3 +1,6 @@
+# Simple effector testing script.
+# Can be used to test effector_actions topic and working of simple effector.
+
 import rospy
 from std_msgs.msg import String
 from actionlib_msgs.msg import GoalStatusArray
