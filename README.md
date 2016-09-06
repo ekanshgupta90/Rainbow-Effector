@@ -2,17 +2,17 @@
 
 ### Start ROS
 ```
-roslaunch turtlebot_bringup minimal.launch
+roslaunch turtlebot_gazebo turtlebot_world.launch
 ```
 
 ### Start navigation stack
 ```
-roslaunch turtlebot_navigation amcl_demo.launch
+roslaunch turtlebot_gazebo amcl_demo.launch
 ```
 
 ### Start RViz for visualization
 ```
-roslaunch turtlebot_rviz_launchers view_navigation.launch --screen
+roslaunch turtlebot_rviz_launchers view_navigation.launch
 ```
 
 ### Disable recovery behaviour
